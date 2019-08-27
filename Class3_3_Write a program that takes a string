@@ -1,0 +1,6 @@
+Write a program that takes a string
+1. a=”Special cases aren't special enough to break the rules.”
+2. a=”Python was created in the early 1990s by Guido van Rossum at Stichting Mathematisch Centrum in the Netherlands as a successor of a language called ABC. Guido remains Python’s principal author, although it includes many contributions from others.”
+and returns the same string, except with the words in backwards order.
+
+Solution:
