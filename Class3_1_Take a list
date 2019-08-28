@@ -5,3 +5,17 @@ Take a list
 and write a program that prints out all the elements of the list that are less than 10.
 
 Solution:
+def less_than_10(a):
+    n = len(a)
+    for i in range(0, n):
+        if a[i] < 10:
+            print(a[i], " ", end="")
+    print()
+
+
+a = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+less_than_10(a)
+a = [0.1, 12, 34, 0.02, 10.5, 9.9999999999, 10.00000000000000000001, 7, 4]
+less_than_10(a)
+#  a = ["a", 10, 13, "10", "ten", 9, 9, 11, 11] I don't know!!!
+less_than_10(a)
